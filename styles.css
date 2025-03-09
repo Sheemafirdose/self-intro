@@ -1,0 +1,30 @@
+/* Center the Main Title */
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #f9f9f9;
+}
+
+/* Style the Upload Button */
+section[data-testid="stFileUploader"] div {
+    background-color: #262730;
+    border: 2px dashed hsl(176, 53%, 45%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Customize Buttons */
+div.stButton > button {
+    background-color: #008CBA;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+div.stButton > button:hover {
+    background-color: #005f73;
+    transform: scale(1.05);
+}

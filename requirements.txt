@@ -1,0 +1,10 @@
+streamlit
+textblob
+Pillow
+PyMuPDF
+python-docx
+numpy
+torch
+sentence-transformers
+scikit-learn
+spacy
